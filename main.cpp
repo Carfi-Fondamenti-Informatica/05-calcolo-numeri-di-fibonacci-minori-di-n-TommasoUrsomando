@@ -5,9 +5,9 @@ int main() {
     cin >> n;
         while(a<=n){
             cout <<a<< endl;
-            b=c;
             c=a;
-            a=b+c;
+            a=b;
+            b=a+c;
         }
     return 0;
 }
